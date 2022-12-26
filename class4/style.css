@@ -1,0 +1,85 @@
+/* * is called universal selector -> It selects every element on the page*/
+/* *::after -> is selecting the after pseudo property of every element */
+/* *::before -> is selecting the before pseudo property of every element */
+/* , is enabling us to have multiple selectors */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* multiple selectors */
+p, h1 {
+    color: green;
+}
+
+div {
+    /* background-color: brown; */
+    /* color: white; */
+    /* width: 100px; */
+    padding: 50px;
+    
+}
+h1 {
+    background-color: blue;
+    color: white;
+    letter-spacing: -3px;
+    width: fit-content;
+    padding:0 10px;
+}
+h1::after {
+    content: 'hello';
+    color: white;
+    background-color: brown;
+    min-width: 100px;
+    /* padding: 0 20px; */
+}
+/* CSS Layout */
+/* any layout where we apply some css properties */
+
+
+div p{
+    /* float: right; */
+    /* float: right; */
+    float: none;
+    clear: both;
+    /* color: white; */
+    display: inline;
+    /* display: inline-block; */
+    /* margin-right: 40px; */
+    /* margin-left: 40px; */
+    margin-top: 60px;
+    background-color: coral;
+    width: 200px;
+
+}
+
+/* display property */
+div {
+    /* inline */
+    /* display: none; */
+    /* display: block; */
+    display: inline-block;
+    background-color: aqua;
+}
+img {
+    /* inline-block */
+    /* margin-top: 180px; */
+    position: relative;
+    /* top: 50px; */
+}
+article {
+    border: 1px solid red;
+    width: 500px;
+   
+}
+button {
+     /* position */
+     /* margin-right: 30px; */
+     /* default, not gonna be affected by the position property */
+     /* position: static; */
+     /* relative to its position */
+     position: relative;
+     right: 40px;
+     left: 40px;
+     /* top: 50px; */
+     bottom: 50px;
+}
