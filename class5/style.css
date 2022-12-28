@@ -1,0 +1,97 @@
+img {
+    /* position: static; */
+    position: relative;
+    left: 90px;
+    /* top: 60px; */
+}
+.article1 {
+    border: 1px solid brown;
+    /* position: static; */
+    position: relative;
+}
+.btn1 {
+    /* position: relative; */
+    /* left: 20px; */
+    /* makes it relative to its parent element */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* right: 10px; */
+    background-color: green;
+    color: white;
+    /* padding: 20px; */
+}
+
+.article2 {
+    border: 2px solid green;
+    /* margin-top: 40px; */
+    /* position: relative; */
+    /* top: 40px; */
+    height: 700px;
+}
+button {
+    position: sticky;
+    top: 10px;
+}
+a {
+    text-decoration: none;
+    background-color: coral;
+    color: white;
+    padding: 10px 20px;
+    /* relative to the viewport */
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+}
+
+
+.book1{
+    position: relative;
+    padding: 10px;
+    border-color: brown;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    height: 300px;
+    background-color: azure;
+    z-index: 4;
+}
+
+.book2{
+    position: relative;
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    height: 300px;
+    margin-top: -50px;
+    background-color: blue;
+    z-index: 3;
+}
+
+.book3{
+    position: relative;
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    height: 300px;
+    margin-top: -50px;
+    background-color: red;
+    z-index: 2;
+}
+
+.book4{
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    height: 300px;
+    margin-top: -50px;
+    background-color: coral;
+    /* z-index: 1; */
+}
