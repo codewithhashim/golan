@@ -69,7 +69,7 @@ img {
 article {
     border: 1px solid red;
     width: 500px;
-   
+   position: relative;
 }
 button {
      /* position */
@@ -78,8 +78,9 @@ button {
      /* position: static; */
      /* relative to its position */
      position: relative;
+     /* the left and top property overrides the right and bottom because they are put on the elements by default */
+     left: auto;
      right: 40px;
-     left: 40px;
-     /* top: 50px; */
-     bottom: 50px;
+     top: auto;
+     bottom: 10px;
 }
